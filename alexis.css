@@ -1,0 +1,66 @@
+html {
+    background: url(backgroundImages/masterBackground99.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    image-orientation: from-image;
+}
+
+.newsLinks li {
+    list-style: none;
+    display: inline-block;
+    right: 30px;
+    top: 25px;
+    padding: 5px;
+}
+
+.generators {
+    position: absolute;
+    display: block;
+    right: 30px;
+    top: 25px;
+    padding: 10px;
+    list-style-type: none;
+}
+
+#generator {
+    color: whitesmoke;
+    border: none;
+    background-color: Transparent;
+    font-family: cursive;
+    padding: 15px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    width: 85px;
+    height: 50px
+}
+
+.generateNews {
+    color: whitesmoke;
+    border: none;
+    background-color: Transparent;
+    font-family: cursive;
+    padding: 15px 15px;
+    text-align: center;
+    font-size: 12px;
+    list-style-type: none;
+    padding: 0px;
+}
+
+#Image {
+    position: absolute;
+    display: block;
+    margin-left: 80px;
+    width: 495px;
+    height: 400px;
+    top: 110px;
+}
+
+.text {
+    font-family: 'Nothing You Could Do', cursive;
+    color: pink;
+    font-size: 28px;
+    position: fixed;
+    bottom: 0;
+    right: 90px;
+}

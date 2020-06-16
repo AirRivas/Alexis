@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alexis</title>
+    <link rel="stylesheet" href="alexis.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="containerMain" id="containerMain">
+        <div class="newsDiv">
+            <ul class="newsLinks">
+                <li><button class="generateNews" onclick="newsFunc(this)"> Mass </button></li>
+                <li><button class="generateNews" onclick="newsFunc(this)"> Regional  </button></li>
+                <li><button class="generateNews" onclick="newsFunc(this)"> National </button></li>
+                <li><button class="generateNews" onclick="newsFunc(this)"> National2 </button></li>
+                <li><button class="generateNews" onclick="newsFunc(this)"> Networks </button></li>
+            </ul>
+        </div>
+        <nav>
+            <ul class="generators">
+                <li> <button id="generator" onclick="generateOtterLibrary(); Summon(this)">otters</button></li>
+                <li> <button id="generator" onclick="generateMemeLibrary(); Summon(this)">memes</button></li>
+                <li> <button id="generator" onclick=" generateCelticLibrary(); Summon(this)">celtics</button></li>
+            </ul>
+        </nav>
+        <!-- button to enter site (disabled)  <button id="start1" onclick="Open()">Enter Site</button> -->
+        <!-- toggle background button (disabled) <button id="start2" onclick="toggleBackground()">Toggle Background</button> -->
+        <p class="text"> burnt </p>
+
+    </div>
+
+    <script src="alexis.js">
+    </script>
+</body>
+
+</html>

@@ -62,5 +62,5 @@ function newsFunc(button) {
         } else {
             clearInterval(interval);
         }
-    }, 6500);
+    }, 500);
 }
